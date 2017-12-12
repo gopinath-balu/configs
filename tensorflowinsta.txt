@@ -1,0 +1,12 @@
+How I built tensorflow for my use,
+
+1. CUDA TOOLKIT 9.0
+       See official documentation for more information.
+2. CuDNN version 7
+       See official documentation for more information, additionally while copying use -P flag to retain the symlinks.
+3. TensorFlow version 1.4 built with MKL support
+       Went with default configuration most of the time except for CUDA support and added --cxxopt="-D_GLIBCXX_USE_CXX11_ABI=0" for gcc5 backward compatibility 
+       and --config=mkl for MKL support
+       
+       For mkl I followed the steps from this mentioned site <https://software.intel.com/en-us/articles/intel-mkl-dnn-part-1-library-overview-and-installation> apart
+       from that I had to add the library location(/usr/local/lib/ & /usr/local/include/) to LD_LIBRARY_PATH.
