@@ -1,3 +1,4 @@
 gcc version 5.4.0
-nvidia cuda toolkit 9.0
+nvidia cuda toolkit 9.0 - CUDA Version 9.0.176, Cuda compilation tools, release 9.0, V9.0.176
 nvidia cudnn 9.0 v7.1 dated 
+nvidia driver - Nvidia binary driver Version 384.111 from Nvidia 384
