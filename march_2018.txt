@@ -1,0 +1,3 @@
+gcc version 5.4.0
+nvidia cuda toolkit 9.0
+nvidia cudnn 9.0 v7.1 dated 
